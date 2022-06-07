@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF39BE27284F700300B79F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BE26284F700300B79F83 /* AppDelegate.swift */; };
+		FF39BE29284F700300B79F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BE28284F700300B79F83 /* ViewController.swift */; };
+		FF39BE2C284F700300B79F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF39BE2A284F700300B79F83 /* Main.storyboard */; };
+		FF39BE2E284F700300B79F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF39BE2D284F700300B79F83 /* Assets.xcassets */; };
+		FF39BE31284F700300B79F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF39BE2F284F700300B79F83 /* LaunchScreen.storyboard */; };
+		FF39BE3C284F700300B79F83 /* PlayQuestionsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BE3B284F700300B79F83 /* PlayQuestionsAppTests.swift */; };
+		FF39BE47284F700400B79F83 /* PlayQuestionsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BE46284F700400B79F83 /* PlayQuestionsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF39BE38284F700300B79F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF39BE1B284F700300B79F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF39BE22284F700300B79F83;
+			remoteInfo = PlayQuestionsApp;
+		};
+		FF39BE43284F700300B79F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF39BE1B284F700300B79F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF39BE22284F700300B79F83;
+			remoteInfo = PlayQuestionsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF39BE23284F700300B79F83 /* PlayQuestionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayQuestionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF39BE26284F700300B79F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF39BE28284F700300B79F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF39BE2B284F700300B79F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF39BE2D284F700300B79F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF39BE30284F700300B79F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF39BE32284F700300B79F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF39BE37284F700300B79F83 /* PlayQuestionsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayQuestionsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF39BE3B284F700300B79F83 /* PlayQuestionsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayQuestionsAppTests.swift; sourceTree = "<group>"; };
+		FF39BE3D284F700300B79F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF39BE42284F700300B79F83 /* PlayQuestionsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayQuestionsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF39BE46284F700400B79F83 /* PlayQuestionsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayQuestionsAppUITests.swift; sourceTree = "<group>"; };
+		FF39BE48284F700400B79F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF39BE20284F700300B79F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF39BE34284F700300B79F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF39BE3F284F700300B79F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF39BE1A284F700300B79F83 = {
+			isa = PBXGroup;
+			children = (
+				FF39BE25284F700300B79F83 /* PlayQuestionsApp */,
+				FF39BE3A284F700300B79F83 /* PlayQuestionsAppTests */,
+				FF39BE45284F700400B79F83 /* PlayQuestionsAppUITests */,
+				FF39BE24284F700300B79F83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF39BE24284F700300B79F83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF39BE23284F700300B79F83 /* PlayQuestionsApp.app */,
+				FF39BE37284F700300B79F83 /* PlayQuestionsAppTests.xctest */,
+				FF39BE42284F700300B79F83 /* PlayQuestionsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF39BE25284F700300B79F83 /* PlayQuestionsApp */ = {
+			isa = PBXGroup;
+			children = (
+				FF39BE26284F700300B79F83 /* AppDelegate.swift */,
+				FF39BE28284F700300B79F83 /* ViewController.swift */,
+				FF39BE2A284F700300B79F83 /* Main.storyboard */,
+				FF39BE2D284F700300B79F83 /* Assets.xcassets */,
+				FF39BE2F284F700300B79F83 /* LaunchScreen.storyboard */,
+				FF39BE32284F700300B79F83 /* Info.plist */,
+			);
+			path = PlayQuestionsApp;
+			sourceTree = "<group>";
+		};
+		FF39BE3A284F700300B79F83 /* PlayQuestionsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF39BE3B284F700300B79F83 /* PlayQuestionsAppTests.swift */,
+				FF39BE3D284F700300B79F83 /* Info.plist */,
+			);
+			path = PlayQuestionsAppTests;
+			sourceTree = "<group>";
+		};
+		FF39BE45284F700400B79F83 /* PlayQuestionsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF39BE46284F700400B79F83 /* PlayQuestionsAppUITests.swift */,
+				FF39BE48284F700400B79F83 /* Info.plist */,
+			);
+			path = PlayQuestionsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF39BE22284F700300B79F83 /* PlayQuestionsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF39BE4B284F700400B79F83 /* Build configuration list for PBXNativeTarget "PlayQuestionsApp" */;
+			buildPhases = (
+				FF39BE1F284F700300B79F83 /* Sources */,
+				FF39BE20284F700300B79F83 /* Frameworks */,
+				FF39BE21284F700300B79F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayQuestionsApp;
+			productName = PlayQuestionsApp;
+			productReference = FF39BE23284F700300B79F83 /* PlayQuestionsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF39BE36284F700300B79F83 /* PlayQuestionsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF39BE4E284F700400B79F83 /* Build configuration list for PBXNativeTarget "PlayQuestionsAppTests" */;
+			buildPhases = (
+				FF39BE33284F700300B79F83 /* Sources */,
+				FF39BE34284F700300B79F83 /* Frameworks */,
+				FF39BE35284F700300B79F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF39BE39284F700300B79F83 /* PBXTargetDependency */,
+			);
+			name = PlayQuestionsAppTests;
+			productName = PlayQuestionsAppTests;
+			productReference = FF39BE37284F700300B79F83 /* PlayQuestionsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF39BE41284F700300B79F83 /* PlayQuestionsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF39BE51284F700400B79F83 /* Build configuration list for PBXNativeTarget "PlayQuestionsAppUITests" */;
+			buildPhases = (
+				FF39BE3E284F700300B79F83 /* Sources */,
+				FF39BE3F284F700300B79F83 /* Frameworks */,
+				FF39BE40284F700300B79F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF39BE44284F700300B79F83 /* PBXTargetDependency */,
+			);
+			name = PlayQuestionsAppUITests;
+			productName = PlayQuestionsAppUITests;
+			productReference = FF39BE42284F700300B79F83 /* PlayQuestionsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF39BE1B284F700300B79F83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chawan Saeed";
+				TargetAttributes = {
+					FF39BE22284F700300B79F83 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					FF39BE36284F700300B79F83 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FF39BE22284F700300B79F83;
+					};
+					FF39BE41284F700300B79F83 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FF39BE22284F700300B79F83;
+					};
+				};
+			};
+			buildConfigurationList = FF39BE1E284F700300B79F83 /* Build configuration list for PBXProject "PlayQuestionsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF39BE1A284F700300B79F83;
+			productRefGroup = FF39BE24284F700300B79F83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF39BE22284F700300B79F83 /* PlayQuestionsApp */,
+				FF39BE36284F700300B79F83 /* PlayQuestionsAppTests */,
+				FF39BE41284F700300B79F83 /* PlayQuestionsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF39BE21284F700300B79F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF39BE31284F700300B79F83 /* LaunchScreen.storyboard in Resources */,
+				FF39BE2E284F700300B79F83 /* Assets.xcassets in Resources */,
+				FF39BE2C284F700300B79F83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF39BE35284F700300B79F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF39BE40284F700300B79F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF39BE1F284F700300B79F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF39BE29284F700300B79F83 /* ViewController.swift in Sources */,
+				FF39BE27284F700300B79F83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF39BE33284F700300B79F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF39BE3C284F700300B79F83 /* PlayQuestionsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF39BE3E284F700300B79F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF39BE47284F700400B79F83 /* PlayQuestionsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF39BE39284F700300B79F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF39BE22284F700300B79F83 /* PlayQuestionsApp */;
+			targetProxy = FF39BE38284F700300B79F83 /* PBXContainerItemProxy */;
+		};
+		FF39BE44284F700300B79F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF39BE22284F700300B79F83 /* PlayQuestionsApp */;
+			targetProxy = FF39BE43284F700300B79F83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF39BE2A284F700300B79F83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF39BE2B284F700300B79F83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF39BE2F284F700300B79F83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF39BE30284F700300B79F83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF39BE49284F700400B79F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF39BE4A284F700400B79F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF39BE4C284F700400B79F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayQuestionsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.PlayQuestionsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF39BE4D284F700400B79F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayQuestionsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.PlayQuestionsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF39BE4F284F700400B79F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayQuestionsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.PlayQuestionsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayQuestionsApp.app/PlayQuestionsApp";
+			};
+			name = Debug;
+		};
+		FF39BE50284F700400B79F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayQuestionsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.PlayQuestionsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayQuestionsApp.app/PlayQuestionsApp";
+			};
+			name = Release;
+		};
+		FF39BE52284F700400B79F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlayQuestionsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.PlayQuestionsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayQuestionsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FF39BE53284F700400B79F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlayQuestionsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.PlayQuestionsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayQuestionsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF39BE1E284F700300B79F83 /* Build configuration list for PBXProject "PlayQuestionsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF39BE49284F700400B79F83 /* Debug */,
+				FF39BE4A284F700400B79F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF39BE4B284F700400B79F83 /* Build configuration list for PBXNativeTarget "PlayQuestionsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF39BE4C284F700400B79F83 /* Debug */,
+				FF39BE4D284F700400B79F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF39BE4E284F700400B79F83 /* Build configuration list for PBXNativeTarget "PlayQuestionsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF39BE4F284F700400B79F83 /* Debug */,
+				FF39BE50284F700400B79F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF39BE51284F700400B79F83 /* Build configuration list for PBXNativeTarget "PlayQuestionsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF39BE52284F700400B79F83 /* Debug */,
+				FF39BE53284F700400B79F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF39BE1B284F700300B79F83 /* Project object */;
+}
