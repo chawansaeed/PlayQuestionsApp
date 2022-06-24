@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF359F56285615EB000576A4 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF359F55285615EB000576A4 /* QuestionsViewController.swift */; };
 		FF39BE27284F700300B79F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BE26284F700300B79F83 /* AppDelegate.swift */; };
-		FF39BE29284F700300B79F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BE28284F700300B79F83 /* ViewController.swift */; };
 		FF39BE2C284F700300B79F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF39BE2A284F700300B79F83 /* Main.storyboard */; };
 		FF39BE2E284F700300B79F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF39BE2D284F700300B79F83 /* Assets.xcassets */; };
 		FF39BE31284F700300B79F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF39BE2F284F700300B79F83 /* LaunchScreen.storyboard */; };
 		FF39BE3C284F700300B79F83 /* PlayQuestionsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BE3B284F700300B79F83 /* PlayQuestionsAppTests.swift */; };
 		FF39BE47284F700400B79F83 /* PlayQuestionsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BE46284F700400B79F83 /* PlayQuestionsAppUITests.swift */; };
+		FF39BE55284F725E00B79F83 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF39BE54284F725E00B79F83 /* Questions.swift */; };
+		FF39BE57284F83AB00B79F83 /* DatasJsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = FF39BE56284F83AB00B79F83 /* DatasJsonFile.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF359F55285615EB000576A4 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		FF39BE23284F700300B79F83 /* PlayQuestionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayQuestionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF39BE26284F700300B79F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF39BE28284F700300B79F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF39BE2B284F700300B79F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF39BE2D284F700300B79F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF39BE30284F700300B79F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		FF39BE42284F700300B79F83 /* PlayQuestionsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayQuestionsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF39BE46284F700400B79F83 /* PlayQuestionsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayQuestionsAppUITests.swift; sourceTree = "<group>"; };
 		FF39BE48284F700400B79F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF39BE54284F725E00B79F83 /* Questions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		FF39BE56284F83AB00B79F83 /* DatasJsonFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DatasJsonFile.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				FF39BE26284F700300B79F83 /* AppDelegate.swift */,
-				FF39BE28284F700300B79F83 /* ViewController.swift */,
+				FF359F55285615EB000576A4 /* QuestionsViewController.swift */,
+				FF39BE56284F83AB00B79F83 /* DatasJsonFile.json */,
+				FF39BE54284F725E00B79F83 /* Questions.swift */,
 				FF39BE2A284F700300B79F83 /* Main.storyboard */,
 				FF39BE2D284F700300B79F83 /* Assets.xcassets */,
 				FF39BE2F284F700300B79F83 /* LaunchScreen.storyboard */,
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF39BE31284F700300B79F83 /* LaunchScreen.storyboard in Resources */,
+				FF39BE57284F83AB00B79F83 /* DatasJsonFile.json in Resources */,
 				FF39BE2E284F700300B79F83 /* Assets.xcassets in Resources */,
 				FF39BE2C284F700300B79F83 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF39BE29284F700300B79F83 /* ViewController.swift in Sources */,
+				FF39BE55284F725E00B79F83 /* Questions.swift in Sources */,
+				FF359F56285615EB000576A4 /* QuestionsViewController.swift in Sources */,
 				FF39BE27284F700300B79F83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +492,7 @@
 				FF39BE4D284F700400B79F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF39BE4E284F700400B79F83 /* Build configuration list for PBXNativeTarget "PlayQuestionsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				FF39BE50284F700400B79F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF39BE51284F700400B79F83 /* Build configuration list for PBXNativeTarget "PlayQuestionsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				FF39BE53284F700400B79F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
